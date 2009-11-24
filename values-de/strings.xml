@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (C) 2009 Anno - Missed Call
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+	<!-- UI Strings  -->
+	
+	
+	<!-- General -->
+	
+    <string name="app_name">Missed Call</string>
+    
+    <!-- Locale Plugin -->
+    <string name="app_name_locale_plugin">Missed Call</string>
+    <string name="locale_save">Speichern</string>
+    <string name="locale_dontsave">Nicht Speichern</string>
+    <string name="locale_help">Hilfe</string>
+    <string name="locale_missed_call_on">Aktivieren</string>
+    <string name="locale_missed_call_off">Deaktivieren</string>
+    <string name="locale_no_action">Keine Aktion</string>
+    <string name="locale_missed_call_blurb_on">Aktiv</string>
+    <string name="locale_missed_call_blurb_off">Deaktiviert</string>
+    <string name="locale_missed_call_blurb_no">Keine Aktion</string>
+    <string name="locale_service_status">Deaktiviert von Locale</string>
+    
+    <!-- About information -->
+   	<string name="about">Hilfe</string>
+    <string name="aboutInfo">Missed Call macht es möglich die Benachrichtigungen per LED/Sound/Vibration für verpasste Anrufe, eingehende Anrufe, SMS und Bluetooth® Events an die eigenen Bedürfnisse anzupassen.\n\n<b>Nutzung</b>\n\nZu Beginn finden Sie eine leere Liste vor. Über einen Klick auf den MENU Button können Services hinzugefügt werden. Über einen Klick auf den Service in der Liste gelangt man zu den Benachrichtigungs Einstellungen für diesen. Über gedrückt halten eines Services aus der Liste kann dieser gelöscht werden und ist damit nicht mehr aktiv.\n\n<b>Anmerkungen</b>\n\nDie Anwendung benötigt Zugriff auf die eigene Kontaktdatenbank, da in dieser auch die Anrufe verwaltet werden und nur mit dessen Hilfe erkannt werden kann ob ein verpasster Anruf vorliegt. Die Verwendung der Einträge erfolgt <b>nur</b> für diesen Zwecke.\n\nUm verpasste und eingehende Anrufe zu erkennen muss ein Hintergrundprozess laufen. Es gibt im Moment keine andere Möglichkeit dies zu implementieren.\n\n\"LED Intervall\" - Dieses Intervall beschreibt den Rythmus in dem die LED abwechselnd an und aus geht. So würde zum Beispiel die Einstellung 300/300 zu einem hektischen blinken führen. Hier gilt es mit den Werten zu spielen. Sie können direkt getestet werden.\n\nEs ist <b>nicht</b> möglich die Lade LED im aktuellen Android Release 1.0/1.1/1.5/1.6 zu überschreiben.\n\nUm den SMS Service nutzen zu können <b>müssen</b> die Benachrichtigungen in der Standard SMS Anwendung oder jeglicher 3rd Party Anwendungen wie zum Beispiel \"ChompSMS\" deaktiviert werden.\n\n<b>Twitter</b>\n\nSie können Updates und Statusberichte im Missed Call Twitter Log unter http://twitter.com/missed_Call verfolgen.</string>
+     
+    <!-- Services -->
+   	<string name="call_service">Anruf Service</string>
+   	<string name="sms_service">SMS Service</string>
+   	<string name="bt_service">BT Service</string>
+   	<string name="cal_service">Kalender Service</string>
+   	<string name="package_service">Anwendungs Service</string>
+   	<string name="airplane_service">Flug Service</string>
+   	<string name="battery_service">Batterie Service</string>
+   	
+   	<!-- Tab Labels -->	
+	<string name="call_missed">Verpasster Anruf</string>
+	<string name="call_incoming">Eingehender Anruf</string>
+	<string name="sms">SMS</string>
+	<string name="bt_enabled">Bluetooth® aktiviert</string>
+	<string name="bt_connected">Bluetooth® Gerät verbunden</string>
+	<string name="cal">Kalender</string>
+	<string name="packageInstalled">Anwendung installiert</string>
+    <string name="airplaneMode">Flugmodus</string>
+	<string name="batteryLow">Schwache Batterie</string>
+	
+	<!-- Context MENU -->
+	<string name="context_delete_service">Lösche Service</string>
+	
+    <!-- Dialog -->
+	<string name="dialog_disabled_services">Wähle Service</string>
+	<string name="toast_no_services_available">Es sind keine weiteren Services mehr verfügbar!</string>
+   	
+    <!-- MENU -->
+    <string name="toast_cleared_settings">Einstellungen wurden gelöscht</string>
+    <string name="menu_backup">Backup/Wiederherstellen</string>
+    <string name="menu_backup_settings">Backup Einstellungen</string>
+    <string name="menu_restore_settings">Einstellungen wiederherstellen</string>
+    <string name="menu_add_service">Service hinzufügen</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="main_advice">Füge einen Service über das drücken des MENU Buttons hinzu. Lösche einen Service über das gedrückt halten des Services in der Liste.</string>
+    
+        <!-- Preferences -->
+    <string name="prefs_tonepicker_title">Normale Soundauswahl</string>
+    <string name="prefs_tonepicker_summary">Verwende die normale Sound Auswahl</string>
+    <string name="prefs_sound">Sound Einstellungen</string>
+    <string name="prefs_sound_summary">Wähle die Sounds aus welche im Sound Menü angezeigt werden sollen</string>
+    <string name="prefs_sound_title">Wähle eine Option</string>
+    <string name="prefs_sound_itemOne">Alle Sounds</string>
+    <string name="prefs_sound_itemTwo">Nur Benachrichtigungen</string>
+    <string name="prefs_sound_itemThree">Benachrichtigungen und Klingeltöne</string>
+    <string name="prefs_sound_itemFour">Benachrichtigungen, Klingeltöne und Musik</string>
+    
+    <!-- People selection UI -->
+    <string name="people_menu">Hinzufügen von Personen über den MENU Button</string>
+    <string name="people_context">Lösche Kontakt</string>
+    <string name="people_add_contact">Hinzufügen von Kontakt</string>
+    <string name="people_duplicate">Sie haben den Kontakt schon hinzugefügt</string>
+    <string name="people_general_person">Grundeinstellung</string>
+    <string name="people_progress_content">Lädt...</string>
+    <string name="people_delete_all">Lösche alle</string>
+    <string name="people_no_delete_first_toast">Sie können die Grundeinstellungen nicht löschen</string>
+    <string name="people_view_contact">Kontakt anzeigen</string>
+    
+    <!-- Backup db -->
+    <string name="backup_saved">Die Einstellungen wurden auf die SD Karte gespeichert</string>
+    <string name="backup_restored">Die Einstellungen wurden wiederhergestellt</string>
+    <string name="backup_nosd">Backup/Wiederherstellung nicht verfügbar. SD Karte nicht vorhanden.</string>
+    <string name="backup_nobackup_found">Konnte Einstellungen nicht wiederherstellen. Kein Backup gefunden.</string>
+
+	<!-- lable icon/autostart -->
+	<string name="label_statusicon">Status Icon</string>
+    <string name="label_autostart">Autostart</string>
+        
+    <!-- SMS Status Bar View -->
+    <string name="status_contact_name">Unbekannt</string>
+    <string name="status_contact_number">-</string>
+    <string name="status_contact_text">Standard Text</string>
+	<string name="status_sms_new">neue SMS</string>
+	<string name="notify_sms">Lese die neue SMS</string>
+   	<string name="notify_sms_started">SMS empfangen</string>
+   	<string name="status_mms_text">MMS empfangen</string>
+    
+   	<!-- status icon  -->
+   	<string name="notify_started">Missed Call Service wurde gestartet</string>
+   	<string name="notify_running">Missed Call läuft</string>
+   	<string name="notify_description">Missed Call Anwendung</string>
+   	 	
+   	<!-- Colors -->
+   	<string name="color_blue">Blau</string>
+   	<string name="color_red">Rot</string>
+   	<string name="color_green">Grün</string>
+   	<string name="color_pink">Rosa</string>
+   	<string name="color_orange">Orange</string>
+   	<string name="color_purple">Lila</string>
+   	<string name="color_light_blue">Blasses Blau</string>
+   	<string name="color_white">Weiß</string>
+   	<string name="color_light_red">Blasses Rot</string>
+   	<string name="color_yellow">Gelb</string>
+   	
+   	<!-- Vibrate options -->
+   	<string name="vibrate_short">kurz</string>
+   	<string name="vibrate_long">lange</string>
+   	<string name="vibrate_multiple_short">wiederholt kurz</string>
+   	<string name="vibrate_multiple_long">wiederholt lange</string>
+   	<string name="vibrate_short_long">kurz - lange</string>
+   	<string name="vibrate_long_short">lange - kurz</string>
+   	<string name="vibrate_custom">Eigene Einstellung</string>
+   	
+   	<!-- Led options -->
+   	<string name="led_fast">schnell</string>
+   	<string name="led_slow">langsam</string>
+   	<string name="led_very_fast">sehr schnell</string>
+   	<string name="led_very_slow">sehr langsam</string>
+   	<string name="led_custom">Eigene Einstellung</string>
+   	
+   	<!-- Repeat options -->
+   	<string name="repeat_two">2 Minuten</string>
+   	<string name="repeat_five">5 Minuten</string>
+   	<string name="repeat_ten">10 Minuten</string>
+   	<string name="repeat_fifteen">15 Minuten</string>
+   	<string name="repeat_thirty">30 Minuten</string>
+   	<string name="repeat_oneHour">1 Stunde</string>
+   	<string name="repeat_twoHours">2 Stunden</string>
+   	
+   	<!-- Adapter header -->
+  	<string name="list_section_general">Allgemein</string>
+   	<string name="list_section_led">Led Einstellungen</string>
+   	<string name="list_section_vibrate">Vibrations Einstellungen</string>
+   	<string name="list_section_sound">Sound Einstellungen</string>
+   	<string name="list_section_icon">Icon Einstellungen</string>
+   	<string name="list_section_repeat">Wiederholungs Einstellungen</string>
+   	
+   	<!-- General adapter -->
+   	<string name="list_settings_enable_title">Benachrichtigungen</string>
+   	<string name="list_settings_enable_caption">Klicke um sie zu aktivieren</string>
+   	
+   	<!-- LED adapter -->
+   	<string name="list_settings_led_title_enabled">Led aktiviert</string>
+   	<string name="list_settings_led_title_disabled">Led deaktiviert</string>
+   	<string name="list_settings_led_caption_disable">Klicke um Led zu deaktivieren</string>
+   	<string name="list_settings_led_caption_enable">Klicke um Led zu aktivieren</string>
+   	<string name="list_settings_led_title">Led Farbe</string>
+   	<string name="list_settings_led_caption">Klicke um die Led Farbe auszuwählen</string>
+   	<string name="list_settings_led_caption_color_disabled">Die LED Farbe lässt sich auf diesem Endgerät nicht verändern</string>
+   	<string name="list_settings_led_interval_title">Led Intervall</string>
+   	<string name="list_settings_led_interval_caption">Klicke um das Led Intervall zu definieren</string>
+   	
+   	<string name="led_default_on">800</string>
+    <string name="led_default_off">1500</string>
+    <string name="led_hint_on">an in ms</string>
+    <string name="led_hint_off">aus in ms</string>
+    <string name="led_custom_lable">Setze die eigenen Led Einstellungen (an,aus)</string>
+    <string name="led_custom_title">Led Einstellungen</string>
+    <string name="led_save">Speichern/Testen der Einstellungen</string>
+    <string name="led_toast_saved">Einstellungen gespeichert</string>
+   	
+   	<!-- Vibrate adapter -->
+   	<string name="list_settings_vibrate_title_enabled">Vibration ist aktiviert</string>
+   	<string name="list_settings_vibrate_title_disabled">Vibration ist deaktiviert</string>
+   	<string name="list_settings_vibrate_caption_disable">Klicke um sie zu deaktivieren</string>
+   	<string name="list_settings_vibrate_caption_enable">Klicke um sie zu aktivieren</string>
+   	<string name="list_settings_vibrate_pattern_title">Vibrations Geschwindigkeit</string>
+   	<string name="list_settings_vibrate_pattern_caption">Klicke um die Geschwindigkeit einzustellen</string>
+	<string name="list_settings_vibrate_pattern_not_available">Das setzen einer bestimmten Vibrationsgeschwindigkeit ist nicht möglich auf diesem Endgerät.</string>
+   	
+	<string name="vibrate_custom_lable">Setze deine eigenen Vibrationseinstellungen (an,aus,an usw.)</string>
+	<string name="vibrate_custom_pattern">100,0,100,...</string>
+	<string name="vibrate_error">Nur -> \"100,240,...\"</string>
+	
+	<!-- Repeating alarms -->
+   	<string name="list_settings_repeat_title_enabled">Wiederholung aktiviert</string>
+   	<string name="list_settings_repeat_title_disabled">Wiederholung deaktiviert</string>
+   	<string name="list_settings_repeat_caption_disable">Klicke um sie zu deaktivieren</string>
+   	<string name="list_settings_repeat_caption_enable">Klicke um sie zu aktivieren</string>
+   	<string name="list_settings_repeat_pattern_title">Wiederholungs Intervall</string>
+   	<string name="list_settings_repeat_pattern_caption">Klicke um Intervall einzustellen</string>
+   	
+   	<!-- Sound adapter -->
+   	<string name="list_settings_sound_title_enabled">Sound aktiviert</string>
+   	<string name="list_settings_sound_title_disabled">Sound deaktiviert</string>
+   	<string name="list_settings_sound_caption_disable">Klicke um Sound zu deaktivieren</string>
+   	<string name="list_settings_sound_caption_enable">Klicke um den Sound zu aktivieren</string>
+   	<string name="list_settings_sound_pattern_title">Sound Datei</string>
+   	<string name="list_settings_sound_pattern_caption">Klicke um den Sound zu wählen</string>
+   	
+   	<!-- Icon Adapter -->
+   	<string name="list_settings_icon_title_enabled">Icon aktiviert</string>
+   	<string name="list_settings_icon_title_disabled">Icon deaktiviert</string>
+   	<string name="list_settings_icon_caption_disable">Klicke um den Icon zu deaktivieren</string>
+   	<string name="list_settings_icon_caption_enable">Klicke um den Icon zu aktivieren</string>
+   	
+   	<!-- Dialog Strings -->
+   	
+   	<string name="dialog_led_titel">Wähle die Farbe</string>
+   	<string name="dialog_led_pattern">Wähle das Intervall</string>
+   	<string name="dialog_vibrate_title">Wähle die Geschwindigkeit</string>
+   	<string name="dialog_sound_title">Wähle den Sound</string>
+   	<string name="dialog_repeat_title">Wähle Intervall</string>
+   	<string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Abbrechen</string>
+    <string name="alert_dialog_two_buttons_title">Wichtig</string>
+ 	<string name="alert_content_sms">Du musst die Benachrichtigungen in der Standard SMS Anwendung oder anderen 3rd Party Anwendungen die die Nachrichten verwalten <b>deaktivieren</b>. Wenn das nicht geschehen ist kann es zu zwei Benachrichtigungen kommen!</string>
+    <string name="alert_content_cal">Die Kalender Benachrichtigungen sind <b>nicht</b> 100% fertig. Im Moment bekommt man die angepasste LED Benachrichtigung wenn eine Erinnerung für einen Termin aufgeht. Man muss die LED aber von Hand stoppen in dem man die obere Status Leiste nach unten zieht!</string>
+    <string name="alert_content_call">Bitte beachten Sie das der Anruf Service nach jedem Update der Anwendung neu hinzugefügt werden muss. (Einstellungen bleiben erhalten)</string>   	
+    <string name="alert_first_start">Dies ist Ihr erster Start von Missed Call. Sie können nun Services über das MENU hinzufügen. Danach können Sie für jeden hinzugefügten Service Benachrichtigungseinstellungen vornehmen.</string>   
+    
+   	<!-- Misc -->
+   	<string name="error_figures">Nur Zahlen!</string>
+   	<string name="toast_sd_card">SD Karte ist nicht verfügbar. Konnte Sound Einstellung nicht wiederherstellen.</string>
+   	<string name="feature_not_available">Diese Funktion ist auf Ihrem Endgerät nicht verfügbar. Endgerätname: </string>
+</resources>
