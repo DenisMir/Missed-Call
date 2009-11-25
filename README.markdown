@@ -18,5 +18,5 @@ If you have found a bug in Missed Call or got a feature request - just look at: 
 
 ### Like to contact me?
 
-You can follow Missed Call @ Twitter - just look at: [Missed Call](http://twitter.com/missed_Call)
+You can follow Missed Call @ Twitter - just look at: [Missed Call](http://twitter.com/missed_Call)   
 Or just drop me a message here at GitHub.
