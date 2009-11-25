@@ -203,6 +203,7 @@
    	
 	<string name="vibrate_custom_lable">Setze deine eigenen Vibrationseinstellungen (an,aus,an usw.)</string>
 	<string name="vibrate_custom_pattern">100,0,100,...</string>
+	<string name="vibrate_custom_title">Vibrations Einstellungen</string>
 	<string name="vibrate_error">Nur -> \"100,240,...\"</string>
 	
 	<!-- Repeating alarms -->
